@@ -1,0 +1,51 @@
+# CodeCarbon Config
+.codecarbon.config
+
+# Python Virtual Environment
+/venv/
+venv/
+env/
+ENV/
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Emissions Data
+/emissions_logs/
+emissions_logs/
+*.csv
+
+# Environment Variables & Secrets
+.env
+.env.local
+.env.*.local
+*.env
+.envrc
+
+# API Keys & Credentials
+*_credentials.json
+credentials.json
+*.pem
+*.key
+*.cert
+.aws/
+.gcp/
+
+# IDE & Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+logs/
+
+# OS Files
+Thumbs.db
