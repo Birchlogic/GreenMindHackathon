@@ -102,13 +102,13 @@ Run this **without your app running**:
 Run this **while your app is running**:
 
 ```bash
-./emission_calculation.sh --app-run true --team-name AlphaTeam --run-seconds 1800
+./emission_calculation.sh --app-run true --team-name AlphaTeam --run-seconds 3600
 ```
 
 **What happens:**
 
 * Uses the same setup as baseline mode
-* Runs the monitor for **1800 seconds (30 minutes)**
+* Runs the monitor for **3600 seconds (30 minutes)**
 * Saves results to `./emissions_logs/monitoring_app_run_true.csv`
 
 ---
