@@ -108,7 +108,7 @@ Run this **while your app is running**:
 **What happens:**
 
 * Uses the same setup as baseline mode
-* Runs the monitor for **3600 seconds (30 minutes)**
+* Runs the monitor for **3600 seconds (1 Hour)**
 * Saves results to `./emissions_logs/monitoring_app_run_true.csv`
 
 ---
